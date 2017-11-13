@@ -1,0 +1,389 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+img{border:none;}
+ul{list-style: none;}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+  color: #000000;
+  background: #00041F url(images/background.jpg) 0px 0px repeat-x;
+}
+
+body {
+	position: relative;
+	text-align: left;
+	font-size: 81%;
+	font-family: "Verdana", "Trebuchet MS", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
+
+#container {
+	position: relative;
+  width: 760px;
+	margin: 0px auto 40px auto;
+  /*border: 1px solid red;*/
+}
+
+
+/********************************* top elements *********************************/
+
+#nav, #property {
+	list-style: none;
+	padding: 0px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
+  width: 215px;
+  color: #6F6F6F;
+  background: #FFFFFF;
+  border: 4px solid #4A4D60;
+  font-family: "Trebuchet MS", "Verdana", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
+
+#nav li, #property li {
+	display: block;
+  padding: 0px 2px 0px 12px;
+  width: 90%;
+}
+
+#nav img {
+	padding: 10px 35px 0px 20px;
+}
+
+#property {
+  width: 195px;
+  padding: 10px;
+  text-align: left;
+}
+
+#property li {
+	width: 98%;
+  padding: 0px;
+}
+
+#header {
+	background: #00041F url(images/header.jpg) top center no-repeat;
+  color: #FFFFFF;
+  height: 250px;
+}
+
+
+/******************************** content sections ****************************/
+
+#leftcolumn {
+	position: relative;
+	padding: 0px 0px 15px 0px;
+  margin: 0px 0px 0px 3px;
+  text-align: left;
+	float: left;
+	width: 230px;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+dl {
+  font-size: 0.9em;
+}
+
+dt {
+  float: left;
+  text-align: left;
+  font-weight: bold;
+}
+
+dd {
+	text-align: right;
+  text-indent: 0px;
+}
+
+#rightcolumn {
+	position: relative;
+	padding: 0px 0px 0px 0px;
+  margin: 0px 0px 50px 0px;
+	float: right;
+	width: 510px;
+  text-align: center;
+  color: #FFFFFF;
+  background: inherit;
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+
+p {
+	text-indent: 10px;
+  text-align: justify;
+  margin: 0px 15px 5px 5px;
+}
+
+#rightcolumn p {
+	margin: 0px 5px 15px 0px;
+}
+
+#rightcolumn p.caption {
+  text-align: center;
+}
+
+#rightcolumn p.small {
+  font-size: .8em;
+}
+
+#rightcolumn ul {
+  list-style-type: disc;
+  text-align: left;
+  padding: 0px 0px 10px 50px;
+}
+
+#rightcolumn img {
+  border: 2px solid #FFFFFF;
+  margin: 5px;
+}
+
+li {
+  margin: 0px 0px 0px 0px;
+}
+
+.triple {
+  float: right;
+  clear: right;
+  width: 145px;
+  margin: 0px 0px 25px 25px;
+  padding: 5px;
+  border: 2px solid #FFFFFF;
+  background: #272B3F;
+  color: #FFFFFF;
+}
+
+.vertical {
+  float: right;
+  clear: right;
+  width: 170px;
+  margin: 0px 0px 15px 15px;
+  background: #00041F;
+  color: #FFFFFF;
+}
+
+.horizontal {
+  float: left;
+  clear: none;
+  width: auto;
+  margin: 15px 6px 15px 0px;
+  padding: 5px;
+  border: none;
+  background: #00041F;
+  color: #FFFFFF;
+}
+
+#rightcolumn ul.address {
+  list-style-type: none;
+}
+
+#rightcolumn .horizontal img {
+  margin: 0px 10px 0px 0px;
+}
+
+#rightcolumn img.building {
+  float: right;
+  margin: 10px 5px 15px 25px;
+}
+
+/*#rightcolumn .triple ul {
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+  font-size: 0.9em;
+}*/
+
+#rightcolumn .last, #rightcolumn .horizontal img.last {
+  margin-right: 0px;
+}
+
+/********************************* links ********************************/
+
+ul#nav a {
+	text-decoration: none;
+	color: #5F5F5F;
+  background: #FFFFFF;
+  display: block;
+  padding: 2px 5px 2px 20px;
+  font-size: 0.85em;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location {
+  background: #FFFFFF url(images/0025_bullet.png) 3px 4px no-repeat;
+  color: #00041F;
+}
+
+#property a img, #rightcolumn a img {
+  border: 2px solid #5FBBFF;
+}
+
+#container a {
+  text-decoration: none;
+  padding: 0px 3px;
+  color: #5FBBFF;
+  background: inherit;
+}
+
+#container a:hover, #container a:focus {
+  background: #FFFFFF; 
+  color: #00041F;
+}
+
+
+/******************************** content sections ****************************/
+
+
+#bottom a {
+	text-decoration: none;
+  color: #999999;
+  background: #00041F;
+}
+
+#bottom a:hover, #bottom a:focus {
+  color: #5FBBFF;
+  background: #00041F;
+}
+
+.left {
+	float: left;
+}
+
+#bottom {
+	color: #999999;
+  background: #00041F;
+	text-align: right;
+  font-size: .8em;
+  clear: both;
+  margin: 0px 0px 20px 0px;
+}
+
+
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	position: relative;
+  color: #2BAC00;
+  background: #FFFFFF;
+  height: 40px;
+  width: 360px;
+	text-align: left;
+	font-size: 2em;
+  line-height: 1.5em;
+	font-weight: normal;
+	font-family: "Arial Black", "Lucida Sans Unicode", "Arial Black", "Trebuchet MS", "Helvetica", "Century Gothic", sans-serif;
+  margin: -50px 0px 0px 450px;
+  display: none;
+}
+
+h2
+{
+  color: #FFFFFF;
+  background: #00041F;
+  border-bottom: 1px solid #FFFFFF;
+  margin: 0px 0px 15px 0px;
+  padding: 0px 5px 12px 0px;
+	text-decoration: none;	
+	text-align: right;
+	font-size: 2.8em;
+	font-weight: normal;
+	font-family: "Century Gothic", "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
+}
+
+h3
+{
+  color: #00041F;
+  background: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+	text-decoration: none;	
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Century Gothic", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
+}
+
+h4
+{
+  color: #FFFFFF;
+  background: inherit;
+  margin: 8px 0px 5px 0px;
+  padding: 0px 0px 3px 10px;
+	text-decoration: none;	
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Century Gothic", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
+  border-bottom: 1px dashed #4A4D60;
+}
+
+
+/********************************* form ********************************/
+
+form{
+	margin: 0px 15px 20px 15px;
+	padding: 0px;
+	text-align: left;
+}
+
+.row {
+	clear: both;
+	display: block;
+	margin: 5px 0px 5px 0px;
+	text-align: left;
+	height: 30px;
+}
+
+fieldset {
+	border: 0px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	clear: both;
+}
+
+fieldset label {
+	float: left;
+	width: 65px;
+	text-align: left;
+}
+
+fieldset input {
+	position: relative;
+	width: 200px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+fieldset textarea {
+	position: relative;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+input#preview {
+	float: none;
+	clear: both;
+	margin: 20px 0px 0px 60px;
+	width: 120px;
+}
+
+input#edit, input#submit {
+	float: none;
+	clear: none;
+	margin: 20px 0px 0px 20px;
+	width: 120px;
+}
+
+.contactbody {
+	margin: 0px 0px 0px 10px;
+}

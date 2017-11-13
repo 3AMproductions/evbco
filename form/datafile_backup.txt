@@ -1,0 +1,16 @@
+<property city="Columbus" id="Bishoff Properties">5002</property>
+<property city="Columbus" id="Blacklick">5000</property>
+<property city="Columbus" id="City Properties">5002</property>
+<property city="Columbus" id="Commonwealth Investments">5001</property><br />
+<property city="Columbus" id="Gay Street Properties">5001</property>
+<property city="Columbus" id="Hamilton Center">5000</property>
+<property city="Columbus" id="Third Street">5000</property>
+<property city="Columbus" id="EVBCO">5001</property>
+<property city="Columbus" id="Bishoff Holdings">5002</property>
+<property city="Columbus" id="Banquet Ventures">5000</property>
+<property city="Cleveland" id="Downtown Properties">5002</property>
+<property city="Cleveland" id="Royal Financing">5002</property>
+<property city="Pittsburgh" id="Investment Building">5000</property>
+<property city="Pittsburgh" id="Park Building">5000</property>
+<property city="Pittsburgh" id="Spruce Street">5001</property>
+<property city="Pittsburgh" id="Pittsburgh Properties">5011</property>

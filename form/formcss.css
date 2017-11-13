@@ -1,0 +1,51 @@
+*{margin:0;padding:0;}
+
+html{
+  background: #FFFFFF;
+  color: #000000;
+}
+
+#container{
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#magic{
+  font-weight: bold;
+  font-size: 22px;
+  margin: 10px;
+  padding: 4px;
+  background: #F4F4F4;
+}
+
+fieldset{
+  width: 96%;
+  padding: 10px;
+}
+
+legend{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+fieldset.main select{
+  margin-right: 20px;
+}
+
+div.tri{
+  width: 26%;
+  float: left;
+  margin-right: 2%;
+}
+
+#date,#payee,#for{
+  width: 500px;
+}
+
+#for,#date,#sig{
+  margin-top: 10px;
+}
+
+#sig{
+  width: 300px;
+}
