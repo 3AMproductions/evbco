@@ -53,17 +53,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
   else
     ver = parseInt( appVer );
 
-	path = "./Central%20Exchange(NewER)_files/error.htm";
+  path = "./Central%20Exchange(NewER)_files/error.htm";
 
-	if( msie>=0 && ( (isMac && ver>=5)||(!isMac && ver>=4) ) )
-		window.location.replace( './Central%20Exchange(NewER)_files/frame.htm'+document.location.hash );
-	else
-	{
-		if ( !msieWin31 && ( ( msie >= 0 && ver >= 3.02 ) || ( msie < 0 && ver >= 3 ) ) )
-			window.location.replace( path );
-		else
-			window.location.href = path;
-	}    
+  if( msie>=0 && ( (isMac && ver>=5)||(!isMac && ver>=4) ) )
+    window.location.replace( './Central%20Exchange(NewER)_files/frame.htm'+document.location.hash );
+  else
+  {
+    if ( !msieWin31 && ( ( msie >= 0 && ver >= 3.02 ) || ( msie < 0 && ver >= 3 ) ) )
+      window.location.replace( path );
+    else
+      window.location.href = path;
+  }    
 //-->
 </script><![endif]>
 </head>

@@ -5,24 +5,24 @@ img{border:none;}
 ul{list-style: none;}
 
 html {
-	/* http://www.splintered.co.uk/experiments/49/ */
-	min-height: 100%;
-	margin-bottom: 1px;
+  /* http://www.splintered.co.uk/experiments/49/ */
+  min-height: 100%;
+  margin-bottom: 1px;
   color: #000000;
   background: #00041F url(images/background.jpg) 0px 0px repeat-x;
 }
 
 body {
-	position: relative;
-	text-align: left;
-	font-size: 81%;
-	font-family: "Verdana", "Trebuchet MS", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+  position: relative;
+  text-align: left;
+  font-size: 81%;
+  font-family: "Verdana", "Trebuchet MS", "Century Gothic", "Lucida Sans Unicode", sans-serif;
 }
 
 #container {
-	position: relative;
+  position: relative;
   width: 760px;
-	margin: 0px auto 40px auto;
+  margin: 0px auto 40px auto;
   /*border: 1px solid red;*/
 }
 
@@ -30,8 +30,8 @@ body {
 /********************************* top elements *********************************/
 
 #nav, #property {
-	list-style: none;
-	padding: 0px 0px 20px 0px;
+  list-style: none;
+  padding: 0px 0px 20px 0px;
   margin: 0px 0px 20px 0px;
   width: 215px;
   color: #6F6F6F;
@@ -41,13 +41,13 @@ body {
 }
 
 #nav li, #property li {
-	display: block;
+  display: block;
   padding: 0px 2px 0px 12px;
   width: 90%;
 }
 
 #nav img {
-	padding: 10px 35px 0px 20px;
+  padding: 10px 35px 0px 20px;
 }
 
 #property {
@@ -57,12 +57,12 @@ body {
 }
 
 #property li {
-	width: 98%;
+  width: 98%;
   padding: 0px;
 }
 
 #header {
-	background: #00041F url(images/header.jpg) top center no-repeat;
+  background: #00041F url(images/header.jpg) top center no-repeat;
   color: #FFFFFF;
   height: 250px;
 }
@@ -71,12 +71,12 @@ body {
 /******************************** content sections ****************************/
 
 #leftcolumn {
-	position: relative;
-	padding: 0px 0px 15px 0px;
+  position: relative;
+  padding: 0px 0px 15px 0px;
   margin: 0px 0px 0px 3px;
   text-align: left;
-	float: left;
-	width: 230px;
+  float: left;
+  width: 230px;
 }
 
 em {
@@ -96,16 +96,16 @@ dt {
 }
 
 dd {
-	text-align: right;
+  text-align: right;
   text-indent: 0px;
 }
 
 #rightcolumn {
-	position: relative;
-	padding: 0px 0px 0px 0px;
+  position: relative;
+  padding: 0px 0px 0px 0px;
   margin: 0px 0px 50px 0px;
-	float: right;
-	width: 510px;
+  float: right;
+  width: 510px;
   text-align: center;
   color: #FFFFFF;
   background: inherit;
@@ -114,13 +114,13 @@ dd {
 }
 
 p {
-	text-indent: 10px;
+  text-indent: 10px;
   text-align: justify;
   margin: 0px 15px 5px 5px;
 }
 
 #rightcolumn p {
-	margin: 0px 5px 15px 0px;
+  margin: 0px 5px 15px 0px;
 }
 
 #rightcolumn p.caption {
@@ -203,8 +203,8 @@ li {
 /********************************* links ********************************/
 
 ul#nav a {
-	text-decoration: none;
-	color: #5F5F5F;
+  text-decoration: none;
+  color: #5F5F5F;
   background: #FFFFFF;
   display: block;
   padding: 2px 5px 2px 20px;
@@ -238,7 +238,7 @@ ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location {
 
 
 #bottom a {
-	text-decoration: none;
+  text-decoration: none;
   color: #999999;
   background: #00041F;
 }
@@ -249,13 +249,13 @@ ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location {
 }
 
 .left {
-	float: left;
+  float: left;
 }
 
 #bottom {
-	color: #999999;
+  color: #999999;
   background: #00041F;
-	text-align: right;
+  text-align: right;
   font-size: .8em;
   clear: both;
   margin: 0px 0px 20px 0px;
@@ -268,16 +268,16 @@ ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location {
 
 h1
 {
-	position: relative;
+  position: relative;
   color: #2BAC00;
   background: #FFFFFF;
   height: 40px;
   width: 360px;
-	text-align: left;
-	font-size: 2em;
+  text-align: left;
+  font-size: 2em;
   line-height: 1.5em;
-	font-weight: normal;
-	font-family: "Arial Black", "Lucida Sans Unicode", "Arial Black", "Trebuchet MS", "Helvetica", "Century Gothic", sans-serif;
+  font-weight: normal;
+  font-family: "Arial Black", "Lucida Sans Unicode", "Arial Black", "Trebuchet MS", "Helvetica", "Century Gothic", sans-serif;
   margin: -50px 0px 0px 450px;
   display: none;
 }
@@ -289,11 +289,11 @@ h2
   border-bottom: 1px solid #FFFFFF;
   margin: 0px 0px 15px 0px;
   padding: 0px 5px 12px 0px;
-	text-decoration: none;	
-	text-align: right;
-	font-size: 2.8em;
-	font-weight: normal;
-	font-family: "Century Gothic", "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
+  text-decoration: none;  
+  text-align: right;
+  font-size: 2.8em;
+  font-weight: normal;
+  font-family: "Century Gothic", "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
 }
 
 h3
@@ -302,11 +302,11 @@ h3
   background: #FFFFFF;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 10px 0px;
-	text-decoration: none;	
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: normal;
-	font-family: "Trebuchet MS", "Century Gothic", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
+  text-decoration: none;  
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Century Gothic", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
 }
 
 h4
@@ -315,11 +315,11 @@ h4
   background: inherit;
   margin: 8px 0px 5px 0px;
   padding: 0px 0px 3px 10px;
-	text-decoration: none;	
-	text-align: left;
-	font-size: 1.5em;
-	font-weight: normal;
-	font-family: "Trebuchet MS", "Century Gothic", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
+  text-decoration: none;  
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Century Gothic", "Tahoma", "Agency FB", "Helvetica", "Lucida Sans Unicode", sans-serif;
   border-bottom: 1px dashed #4A4D60;
 }
 
@@ -327,63 +327,63 @@ h4
 /********************************* form ********************************/
 
 form{
-	margin: 0px 15px 20px 15px;
-	padding: 0px;
-	text-align: left;
+  margin: 0px 15px 20px 15px;
+  padding: 0px;
+  text-align: left;
 }
 
 .row {
-	clear: both;
-	display: block;
-	margin: 5px 0px 5px 0px;
-	text-align: left;
-	height: 30px;
+  clear: both;
+  display: block;
+  margin: 5px 0px 5px 0px;
+  text-align: left;
+  height: 30px;
 }
 
 fieldset {
-	border: 0px;
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-	text-align: left;
-	clear: both;
+  border: 0px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  clear: both;
 }
 
 fieldset label {
-	float: left;
-	width: 65px;
-	text-align: left;
+  float: left;
+  width: 65px;
+  text-align: left;
 }
 
 fieldset input {
-	position: relative;
-	width: 200px;
-	float: left;
-	margin: 0px;
-	padding: 0px;
+  position: relative;
+  width: 200px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 fieldset textarea {
-	position: relative;
-	float: left;
-	margin: 0px;
-	padding: 0px;
+  position: relative;
+  float: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 input#preview {
-	float: none;
-	clear: both;
-	margin: 20px 0px 0px 60px;
-	width: 120px;
+  float: none;
+  clear: both;
+  margin: 20px 0px 0px 60px;
+  width: 120px;
 }
 
 input#edit, input#submit {
-	float: none;
-	clear: none;
-	margin: 20px 0px 0px 20px;
-	width: 120px;
+  float: none;
+  clear: none;
+  margin: 20px 0px 0px 20px;
+  width: 120px;
 }
 
 .contactbody {
-	margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
 }
