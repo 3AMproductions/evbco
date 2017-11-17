@@ -40,6 +40,10 @@ body {
   font-family: "Trebuchet MS", "Verdana", "Century Gothic", "Lucida Sans Unicode", sans-serif;
 }
 
+#nav :not(.active) ul {
+  display: none;
+}
+
 #nav li, #property li {
   display: block;
   padding: 0px 2px 0px 12px;
